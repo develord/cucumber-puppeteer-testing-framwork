@@ -1,6 +1,6 @@
 # cucumber-puppeteer-test-framwork
 
-# Test Project: This is a full-js test project
+## Test Project: This is a full-js test project
 
 Technology used: Nuxt.js.
 
