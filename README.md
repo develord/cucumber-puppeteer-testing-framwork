@@ -16,18 +16,9 @@ Clone the Master branch and set your console to the root falder then :
 yarn Install (to install the depondences)
 ```
 ```bash
-yarn build
+yarn test
 ```
-create your (.env.local) if you want to run dev
-```bash
-yarn dev (to run dev)
-```
-```bash
-yarn start (to run prod)
-```
-Server listen on localhost:3000   
-**Nb>This repository configured to auto Deploy on push in master branch.**  
-Link Prod [ibantesting](https://ibantesting.herokuapp.com)
+then the reports will be found in html folder
 
 ## Technology used: Node
   - cucumber.
