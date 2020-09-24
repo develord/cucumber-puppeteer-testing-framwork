@@ -1,19 +1,35 @@
-# cucumber-puppeteer-example
+# cucumber-puppeteer-test-framwork
 
-Write UI tests using Gherkin, Cucumber, and Puppeteer. This project is an example project on how to use [cucumber](https://github.com/cucumber/cucumber-js) with [puppeteer](https://github.com/GoogleChrome/puppeteer). It uses the [React TodoMVC](http://todomvc.com/examples/react/#/) project as a test UI.
+# Test Project: This is a full-js test project
 
-Run `yarn`/`npm install` to get the dependencies and then run `yarn test`/`npm test` to execute the UI tests.
+Technology used: Nuxt.js.
 
-The test command will generate a JSON report file. You can use the `yarn test:report`/`npm run test:report` command to check the HTML report.
+## Installation
 
-## Headless
+**You most have:**  
+1- Node v 13.7 (Use nvm to switch to Node 13 version if you dont have it).  
+2- Yarn.  
 
-The tests run by default in headless mode. To launch a full version of Chromium:
-
+**Step:**  
+Clone the Master branch and set your console to the root falder then :
+```bash
+yarn Install (to install the depondences)
 ```
-$ HEADLESS=false yarn test
+```bash
+yarn build
 ```
+create your (.env.local) if you want to run dev
+```bash
+yarn dev (to run dev)
+```
+```bash
+yarn start (to run prod)
+```
+Server listen on localhost:3000   
+**Nb>This repository configured to auto Deploy on push in master branch.**  
+Link Prod [ibantesting](https://ibantesting.herokuapp.com)
 
-## Timeouts
-
-The `http://todomvc.com/examples/react/#/` might be slow. To avoid any kind of timeout erros, in [world.js](./features/support/world.js) there is an example of how to [change the default timeout](https://github.com/cucumber/cucumber-js/blob/master/docs/support_files/timeouts.md#timeouts).
+## Technology used: Nuxt.js
+  - cucumber.
+  - puppeteer.
+  - chai.
