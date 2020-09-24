@@ -1,4 +1,6 @@
 node_modules
+html
+json
 cucumber_report.html
 cucumber_report.json
 yarn.lock

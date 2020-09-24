@@ -8,110 +8,6 @@
     "uri": "features\\manage-todo-list.feature",
     "elements": [
       {
-        "id": "manage-todo-list;delete-todo",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "delete todo",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "framwork\\cucumber-puppeteer-example\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1356000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Label"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Clean the kitchen"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Prepare dinner"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "I have the todo list",
-            "match": {
-              "location": "features\\support\\steps.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 322000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "I press the delete button of the todo item 1",
-            "match": {
-              "location": "features\\support\\steps.js:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 57000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "I expect the todo list to have 1 item",
-            "match": {
-              "location": "features\\support\\steps.js:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "I expect the todo item 1 to be \"Prepare dinner\"",
-            "match": {
-              "location": "features\\support\\steps.js:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "framwork\\cucumber-puppeteer-example\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 136000000
-            }
-          }
-        ]
-      },
-      {
         "id": "manage-todo-list;add-todo",
         "keyword": "Scenario",
         "line": 3,
@@ -123,11 +19,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "framwork\\cucumber-puppeteer-example\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+              "location": "framwork\\cucumber-puppeteer-testing-framwork\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 1317000000
+              "duration": 1306000000
             }
           },
           {
@@ -141,7 +37,7 @@
                   },
                   {
                     "cells": [
-                      "Clean the kitchen"
+                      ".header input"
                     ]
                   }
                 ]
@@ -155,57 +51,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 303000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I add the todo item \"Prepare dinner\" to the list",
-            "match": {
-              "location": "features\\support\\steps.js:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 47000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I expect the todo list to have 2 items",
-            "match": {
-              "location": "features\\support\\steps.js:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I expect the todo item 2 to be \"Prepare dinner\"",
-            "match": {
-              "location": "features\\support\\steps.js:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4000000
+              "duration": 747000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "framwork\\cucumber-puppeteer-example\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+              "location": "framwork\\cucumber-puppeteer-testing-framwork\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 169000000
+              "duration": 152000000
             }
           }
         ]
