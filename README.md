@@ -1,4 +1,4 @@
-# cucumber-puppeteer-test-framwork
+# cucumber puppeteer test framwork
 
 ## Test Project: This is a full-js test project
 
