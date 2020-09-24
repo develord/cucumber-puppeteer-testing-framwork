@@ -29,7 +29,7 @@ Server listen on localhost:3000
 **Nb>This repository configured to auto Deploy on push in master branch.**  
 Link Prod [ibantesting](https://ibantesting.herokuapp.com)
 
-## Technology used: Nuxt.js
+## Technology used: Node
   - cucumber.
   - puppeteer.
   - chai.
